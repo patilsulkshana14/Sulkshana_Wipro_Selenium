@@ -5,7 +5,7 @@ import java.sql.*;
 public class SameNameProcedure {
 
     public static void main(String[] args) {
-        String url="jdbc:mysql://localhost:3306/mydbsel";
+        String url="jdbc:mysql://localhost:3306/mydb";
         String user="root";
         String password="Sulkshana14@";
 
@@ -34,3 +34,4 @@ public class SameNameProcedure {
         }
     }
 }
+
