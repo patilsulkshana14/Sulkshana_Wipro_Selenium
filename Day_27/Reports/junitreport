@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="372.175" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-08-22T18:26:37.031966200Z">
+<testcase classname="Validate Add to Cart functionality" name="Add a product to the cart" time="43.706">
+<system-out><![CDATA[
+Given open the eBay home page...............................................passed
+When enter to search for add to cart and click on that product and I click on Add to cart button.passed
+Then the product should be added to the cart successfully...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Update Ebay Profile" name="Update Address and Username in Profile" time="29.88">
+<system-out><![CDATA[
+Given Home page of Ebay should be available.................................passed
+When first login in account.................................................passed
+And navigate to the account settings page and update address and update my username.passed
+Then profile should be updated successfully.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Shop by Category functionality" name="Browse products by category" time="17.93">
+<system-out><![CDATA[
+Given show home page in deafult browser.....................................passed
+When select category you want from the Shop by category.....................passed
+Then the search results for relavent result for that category should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate product description after clicking on image" name="Open product description" time="38.748">
+<system-out><![CDATA[
+Given open the eBay home page to check desc.................................passed
+When search for product and click on the that product image.................passed
+Then the open product description page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate eBay search button" name="Search from home page" time="71.56">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When enter product to search and click on search button.....................passed
+Then related result should be displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Shop by Category functionality" name="Browse products by category" time="27.452">
+<system-out><![CDATA[
+Given show home page........................................................passed
+When select product category from the Shop by category dropdown.............passed
+Then the search results for that Category...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Manage Watchlist in eBay" name="Add an item to Watchlist" time="61.193">
+<system-out><![CDATA[
+Given logged into Ebay website..............................................passed
+When search product and I add the product from results to my Watchlist......passed
+Then The product should be added successfully in Watchlist..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate language change functionality" name="Change site language to Spanish" time="42.355">
+<system-out><![CDATA[
+Given open the eBay home page to change language............................passed
+When scroll down the page and change language...............................passed
+Then the site should be displayed in selected language......................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid credential" time="38.59">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on login button and enter username...............................passed
+And Click on continue button................................................passed
+And add password............................................................passed
+And click on signin button..................................................passed
+Then Login successful and open home page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
